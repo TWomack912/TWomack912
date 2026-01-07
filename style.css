@@ -2,7 +2,8 @@ body {
   background-color: #0d1117;
   color: #c9d1d9;
   font-family: "Courier New", monospace;
-  margin: 40px;
+  margin: 0; /* remove extra margin for full-page effect */
+  padding: 40px;
 }
 
 h1, h2 {
@@ -24,11 +25,12 @@ ul {
 
 .container {
   max-width: 900px;
-  margin: auto;
+  margin: auto;          /* centers horizontally */
+  text-align: center;    /* centers all text inside */
 }
+
 hr {
   border: 1px solid #30363d;
   margin: 20px 0;
 }
-<hr>
-<p>© 2026 | Built with GitHub Pages</p>
+
