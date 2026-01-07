@@ -26,3 +26,9 @@ ul {
   max-width: 900px;
   margin: auto;
 }
+hr {
+  border: 1px solid #30363d;
+  margin: 20px 0;
+}
+<hr>
+<p>© 2026 | Built with GitHub Pages</p>
